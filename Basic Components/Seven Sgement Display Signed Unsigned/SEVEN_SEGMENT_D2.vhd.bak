@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity SEVEN_SEGMENT_D2 is
+	port(
+		grygorczuk_sign, grygorczuk_input_z, grygorczuk_negative_flag, grygorczuk_zero_flag : in std_logic;
+		grygorczuk_output_a, grygorczuk_output_b, grygorczuk_output_c, grygorczuk_output_d, grygorczuk_output_e, grygorczuk_output_f, grygorczuk_output_g, : out std_logic
+	);
+end SEVEN_SEGMENT_D2;
+
+architecture SEVEN_SEGMENT_D2_LOGIC of SEVEN_SEGMENT_D2 is
+signal OUTPUT_B, OUTPUT_C, OUTPUT_G: std_logic;
+
+begin
+grygorczuk_output_a <= 1; 
+
+end SEVEN_SEGMENT_D2_LOGIC;

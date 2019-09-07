@@ -1,0 +1,770 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 24 88 216 104)
+	(text "INPUT" (rect 149 0 177 10)(font "Arial" (font_size 6)))
+	(text "grygorczuk_input_0" (rect 5 0 100 12)(font "Arial" ))
+	(pt 192 8)
+	(drawing
+		(line (pt 108 12)(pt 133 12))
+		(line (pt 108 4)(pt 133 4))
+		(line (pt 137 8)(pt 192 8))
+		(line (pt 108 12)(pt 108 4))
+		(line (pt 133 4)(pt 137 8))
+		(line (pt 133 12)(pt 137 8))
+	)
+	(text "VCC" (rect 152 7 172 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 32 200 224 216)
+	(text "INPUT" (rect 149 0 177 10)(font "Arial" (font_size 6)))
+	(text "grygorczuk_input_1" (rect 5 0 101 12)(font "Arial" ))
+	(pt 192 8)
+	(drawing
+		(line (pt 108 12)(pt 133 12))
+		(line (pt 108 4)(pt 133 4))
+		(line (pt 137 8)(pt 192 8))
+		(line (pt 108 12)(pt 108 4))
+		(line (pt 133 4)(pt 137 8))
+		(line (pt 133 12)(pt 137 8))
+	)
+	(text "VCC" (rect 152 7 172 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 40 312 232 328)
+	(text "INPUT" (rect 149 0 177 10)(font "Arial" (font_size 6)))
+	(text "grygorczuk_input_2" (rect 5 0 101 12)(font "Arial" ))
+	(pt 192 8)
+	(drawing
+		(line (pt 108 12)(pt 133 12))
+		(line (pt 108 4)(pt 133 4))
+		(line (pt 137 8)(pt 192 8))
+		(line (pt 108 12)(pt 108 4))
+		(line (pt 133 4)(pt 137 8))
+		(line (pt 133 12)(pt 137 8))
+	)
+	(text "VCC" (rect 152 7 172 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 40 560 232 576)
+	(text "INPUT" (rect 149 0 177 10)(font "Arial" (font_size 6)))
+	(text "grygorczuk_input_3" (rect 5 0 101 12)(font "Arial" ))
+	(pt 192 8)
+	(drawing
+		(line (pt 108 12)(pt 133 12))
+		(line (pt 108 4)(pt 133 4))
+		(line (pt 137 8)(pt 192 8))
+		(line (pt 108 12)(pt 108 4))
+		(line (pt 133 4)(pt 137 8))
+		(line (pt 133 12)(pt 137 8))
+	)
+	(text "VCC" (rect 152 7 172 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 648 -88 846 -72)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "grygorczuk_output_a" (rect 90 0 192 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 640 40 838 56)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "grygorczuk_output_b" (rect 90 0 192 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 648 168 846 184)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "grygorczuk_output_c" (rect 90 0 192 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 664 296 862 312)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "grygorczuk_output_d" (rect 90 0 192 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 664 432 862 448)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "grygorczuk_output_e" (rect 90 0 192 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 656 560 853 576)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "grygorczuk_output_f" (rect 90 0 191 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 648 688 846 704)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "grygorczuk_output_g" (rect 90 0 192 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(symbol
+	(rect 360 -112 600 16)
+	(text "SEVEN_SEGMENT_DISPLAY_NAND_A" (rect 5 0 225 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 112 25 124)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "grygorczuk_A" (rect 0 0 81 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_A" (rect 21 27 102 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "grygorczuk_B" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_B" (rect 21 43 101 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "grygorczuk_C" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_C" (rect 21 59 101 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "grygorczuk_D" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_D" (rect 21 75 101 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 240 32)
+		(output)
+		(text "grygorczuk_output" (rect 0 0 107 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_output" (rect 112 27 219 41)(font "Arial" (font_size 8)))
+		(line (pt 240 32)(pt 224 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 224 112))
+	)
+)
+(symbol
+	(rect 360 16 600 144)
+	(text "SEVEN_SEGMENT_DISPLAY_NAND_B" (rect 5 0 224 14)(font "Arial" (font_size 8)))
+	(text "inst2" (rect 8 112 31 124)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "grygorczuk_A" (rect 0 0 81 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_A" (rect 21 27 102 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "grygorczuk_B" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_B" (rect 21 43 101 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "grygorczuk_C" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_C" (rect 21 59 101 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "grygorczuk_D" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_D" (rect 21 75 101 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 240 32)
+		(output)
+		(text "grygorczuk_output" (rect 0 0 107 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_output" (rect 112 27 219 41)(font "Arial" (font_size 8)))
+		(line (pt 240 32)(pt 224 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 224 112))
+	)
+)
+(symbol
+	(rect 360 408 600 536)
+	(text "SEVEN_SEGMENT_DISPLAY_NAND_E" (rect 5 0 223 14)(font "Arial" (font_size 8)))
+	(text "inst5" (rect 8 112 31 124)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "grygorczuk_A" (rect 0 0 81 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_A" (rect 21 27 102 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "grygorczuk_B" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_B" (rect 21 43 101 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "grygorczuk_C" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_C" (rect 21 59 101 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "grygorczuk_D" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_D" (rect 21 75 101 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 240 32)
+		(output)
+		(text "grygorczuk_output" (rect 0 0 107 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_output" (rect 112 27 219 41)(font "Arial" (font_size 8)))
+		(line (pt 240 32)(pt 224 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 224 112))
+	)
+)
+(symbol
+	(rect 360 536 600 664)
+	(text "SEVEN_SEGMENT_DISPLAY_NAND_F" (rect 5 0 223 14)(font "Arial" (font_size 8)))
+	(text "inst6" (rect 8 112 31 124)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "grygorczuk_A" (rect 0 0 81 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_A" (rect 21 27 102 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "grygorczuk_B" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_B" (rect 21 43 101 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "grygorczuk_C" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_C" (rect 21 59 101 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "grygorczuk_D" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_D" (rect 21 75 101 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 240 32)
+		(output)
+		(text "grygorczuk_output" (rect 0 0 107 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_output" (rect 112 27 219 41)(font "Arial" (font_size 8)))
+		(line (pt 240 32)(pt 224 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 224 112))
+	)
+)
+(symbol
+	(rect 360 664 600 792)
+	(text "SEVEN_SEGMENT_DISPLAY_NAND_G" (rect 5 0 225 14)(font "Arial" (font_size 8)))
+	(text "inst7" (rect 8 112 31 124)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "grygorczuk_A" (rect 0 0 81 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_A" (rect 21 27 102 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "grygorczuk_B" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_B" (rect 21 43 101 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "grygorczuk_C" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_C" (rect 21 59 101 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "grygorczuk_D" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_D" (rect 21 75 101 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 240 32)
+		(output)
+		(text "grygorczuk_output" (rect 0 0 107 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_output" (rect 112 27 219 41)(font "Arial" (font_size 8)))
+		(line (pt 240 32)(pt 224 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 224 112))
+	)
+)
+(symbol
+	(rect 360 144 600 272)
+	(text "SEVEN_SEGMENT_DISPLAY_NAND_C" (rect 5 0 224 14)(font "Arial" (font_size 8)))
+	(text "inst1" (rect 8 112 31 124)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "grygorczuk_A" (rect 0 0 81 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_A" (rect 21 27 102 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "grygorczuk_B" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_B" (rect 21 43 101 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "grygorczuk_C" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_C" (rect 21 59 101 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "grygorczuk_D" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_D" (rect 21 75 101 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 240 32)
+		(output)
+		(text "grygorczuk_output" (rect 0 0 107 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_output" (rect 112 27 219 41)(font "Arial" (font_size 8)))
+		(line (pt 240 32)(pt 224 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 224 112))
+	)
+)
+(symbol
+	(rect 360 272 600 400)
+	(text "SEVEN_SEGMENT_DISPLAY_NAND_D" (rect 5 0 224 14)(font "Arial" (font_size 8)))
+	(text "inst4" (rect 8 112 31 124)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "grygorczuk_A" (rect 0 0 81 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_A" (rect 21 27 102 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "grygorczuk_B" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_B" (rect 21 43 101 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "grygorczuk_C" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_C" (rect 21 59 101 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "grygorczuk_D" (rect 0 0 80 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_D" (rect 21 75 101 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 240 32)
+		(output)
+		(text "grygorczuk_output" (rect 0 0 107 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_output" (rect 112 27 219 41)(font "Arial" (font_size 8)))
+		(line (pt 240 32)(pt 224 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 224 112))
+	)
+)
+(connector
+	(pt 600 -80)
+	(pt 648 -80)
+)
+(connector
+	(pt 600 48)
+	(pt 640 48)
+)
+(connector
+	(pt 600 176)
+	(pt 648 176)
+)
+(connector
+	(pt 600 304)
+	(pt 664 304)
+)
+(connector
+	(pt 600 440)
+	(pt 664 440)
+)
+(connector
+	(pt 600 568)
+	(pt 656 568)
+)
+(connector
+	(pt 600 696)
+	(pt 648 696)
+)
+(connector
+	(pt 360 696)
+	(pt 256 696)
+)
+(connector
+	(pt 360 -80)
+	(pt 256 -80)
+)
+(connector
+	(pt 360 440)
+	(pt 256 440)
+)
+(connector
+	(pt 256 440)
+	(pt 256 568)
+)
+(connector
+	(pt 360 304)
+	(pt 256 304)
+)
+(connector
+	(pt 256 304)
+	(pt 256 440)
+)
+(connector
+	(pt 360 48)
+	(pt 256 48)
+)
+(connector
+	(pt 256 -80)
+	(pt 256 48)
+)
+(connector
+	(pt 360 176)
+	(pt 256 176)
+)
+(connector
+	(pt 256 48)
+	(pt 256 176)
+)
+(connector
+	(pt 256 176)
+	(pt 256 304)
+)
+(connector
+	(pt 360 712)
+	(pt 272 712)
+)
+(connector
+	(pt 360 -64)
+	(pt 272 -64)
+)
+(connector
+	(pt 360 64)
+	(pt 272 64)
+)
+(connector
+	(pt 272 -64)
+	(pt 272 64)
+)
+(connector
+	(pt 360 192)
+	(pt 272 192)
+)
+(connector
+	(pt 272 64)
+	(pt 272 192)
+)
+(connector
+	(pt 360 456)
+	(pt 272 456)
+)
+(connector
+	(pt 360 584)
+	(pt 272 584)
+)
+(connector
+	(pt 272 456)
+	(pt 272 584)
+)
+(connector
+	(pt 272 584)
+	(pt 272 712)
+)
+(connector
+	(pt 360 -48)
+	(pt 288 -48)
+)
+(connector
+	(pt 288 728)
+	(pt 360 728)
+)
+(connector
+	(pt 360 600)
+	(pt 288 600)
+)
+(connector
+	(pt 288 600)
+	(pt 288 728)
+)
+(connector
+	(pt 360 472)
+	(pt 288 472)
+)
+(connector
+	(pt 288 472)
+	(pt 288 600)
+)
+(connector
+	(pt 272 192)
+	(pt 272 320)
+)
+(connector
+	(pt 360 336)
+	(pt 288 336)
+)
+(connector
+	(pt 288 208)
+	(pt 288 336)
+)
+(connector
+	(pt 288 336)
+	(pt 288 472)
+)
+(connector
+	(pt 224 208)
+	(pt 288 208)
+)
+(connector
+	(pt 288 208)
+	(pt 360 208)
+)
+(connector
+	(pt 360 80)
+	(pt 288 80)
+)
+(connector
+	(pt 288 -48)
+	(pt 288 80)
+)
+(connector
+	(pt 288 80)
+	(pt 288 208)
+)
+(connector
+	(pt 360 -32)
+	(pt 304 -32)
+)
+(connector
+	(pt 360 744)
+	(pt 304 744)
+)
+(connector
+	(pt 304 -32)
+	(pt 304 96)
+)
+(connector
+	(pt 216 96)
+	(pt 304 96)
+)
+(connector
+	(pt 304 96)
+	(pt 360 96)
+)
+(connector
+	(pt 360 224)
+	(pt 304 224)
+)
+(connector
+	(pt 304 96)
+	(pt 304 224)
+)
+(connector
+	(pt 272 320)
+	(pt 272 456)
+)
+(connector
+	(pt 256 568)
+	(pt 256 696)
+)
+(connector
+	(pt 232 320)
+	(pt 272 320)
+)
+(connector
+	(pt 272 320)
+	(pt 360 320)
+)
+(connector
+	(pt 232 568)
+	(pt 256 568)
+)
+(connector
+	(pt 256 568)
+	(pt 360 568)
+)
+(connector
+	(pt 360 352)
+	(pt 304 352)
+)
+(connector
+	(pt 304 224)
+	(pt 304 352)
+)
+(connector
+	(pt 360 488)
+	(pt 304 488)
+)
+(connector
+	(pt 304 352)
+	(pt 304 488)
+)
+(connector
+	(pt 360 616)
+	(pt 304 616)
+)
+(connector
+	(pt 304 488)
+	(pt 304 616)
+)
+(connector
+	(pt 304 616)
+	(pt 304 744)
+)
+(junction (pt 256 568))
+(junction (pt 256 440))
+(junction (pt 256 304))
+(junction (pt 256 48))
+(junction (pt 256 176))
+(junction (pt 272 64))
+(junction (pt 272 192))
+(junction (pt 272 456))
+(junction (pt 272 584))
+(junction (pt 288 208))
+(junction (pt 288 600))
+(junction (pt 288 472))
+(junction (pt 272 320))
+(junction (pt 288 336))
+(junction (pt 288 80))
+(junction (pt 304 96))
+(junction (pt 304 224))
+(junction (pt 304 352))
+(junction (pt 304 488))
+(junction (pt 304 616))

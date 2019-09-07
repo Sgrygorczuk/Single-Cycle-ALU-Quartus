@@ -1,0 +1,31 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity TWOS_COMPLEMENT is
+	port(
+		grygorczuk_y0, grygorczuk_y1, grygorczuk_y2, grygorczuk_y3, grygorczuk_s_1 : in std_logic;
+		grygorczuk_m0,grygorczuk_m1,grygorczuk_m2,grygorczuk_m3 : out std_logic
+	);
+end TWOS_COMPLEMENT;
+
+architecture TWOS_COMPLEMENT_LOGIC of TWOS_COMPLEMENT is
+signal OUTPUT_0,OUTPUT_1,OUTPUT_2,OUTPUT_3: std_logic;
+component MUX is
+	port(
+		grygorczuk_x, grygorczuk_y, grygorczuk_s : in std_logic;
+		grygorczuk_m : out std_logic
+	);
+end component;
+
+begin
+MUX_0: MUX port map(grygorczuk_y0, not grygorczuk_y0,grygorczuk_s_1, OUTPUT_0);
+MUX_1: MUX port map(grygorczuk_y1, not grygorczuk_y1,grygorczuk_s_1, OUTPUT_1);
+MUX_2: MUX port map(grygorczuk_y2, not grygorczuk_y2,grygorczuk_s_1, OUTPUT_2);
+MUX_3: MUX port map(grygorczuk_y3, not grygorczuk_y3,grygorczuk_s_1, OUTPUT_3);
+
+grygorczuk_m0 <= OUTPUT_0;
+grygorczuk_m1 <= OUTPUT_1;
+grygorczuk_m2 <= OUTPUT_2;
+grygorczuk_m3 <= OUTPUT_3;
+
+end TWOS_COMPLEMENT_LOGIC;
