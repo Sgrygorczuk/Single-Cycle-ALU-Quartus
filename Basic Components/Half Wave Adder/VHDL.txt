@@ -1,0 +1,19 @@
+libary ieee;
+use ieee.std_LOGIC_1164.all;
+use ieee.numeric_std.all;
+
+entity VHDL is 
+	PORT(
+		grygorczuk_input_1		:	 IN STD_LOGIC;
+		grygorczuk_input_2		:	 IN STD_LOGIC;
+		grygorczuk_output		:	 OUT STD_LOGIC;
+		grygorczuk_carry_out		:	 OUT STD_LOGIC
+	);
+END VHDL;
+
+ARCHITECTURE HALF_ADDER of HALF_WAVE_ADDER is
+BEGIN
+	grygorczuk_output <= grygorczuk_input_1 or grygorczuk_input_2;
+	grygorczuk_carry_out <= grygorczuk_input_1 and grygorczuk_input_2;
+END HALF_ADDER;
+	

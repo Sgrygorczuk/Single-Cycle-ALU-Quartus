@@ -1,0 +1,18 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity FULL_ADDER is
+	port(
+		grygorczuk_input_1, grygorczuk_input_2, grygorczuk_carry_in: in std_logic;
+		grygorczuk_output, grygorczuk_carry_out : out std_logic
+	);
+end FULL_ADDER;
+
+architecture FULL_ADDER_LOGIC of HALF_ADDER is
+component HALF_ADDER
+port 
+	(
+	)
+	
+end FULL_ADDER_LOGIC;
+	

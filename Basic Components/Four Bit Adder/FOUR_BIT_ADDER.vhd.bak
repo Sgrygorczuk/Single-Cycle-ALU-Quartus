@@ -1,0 +1,36 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity FOUR_BIT_ADDER is
+	port(
+		grygorczuk_carry_in_2 : in std_logic;
+		grygorczuk_carry_x0, grygorczuk_carry_x1, grygorczuk_carry_x2, grygorczuk_carry_x3: in std_logic;
+		grygorczuk_carry_y0, grygorczuk_carry_y1, grygorczuk_carry_y2, grygorczuk_carry_y3: in std_logic;
+		grygorczuk_carry_out_3, grygorczuk_carry_o0, grygorczuk_carry_o1, grygorczuk_carry_o2, grygorczuk_carry_o3: out std_logic;
+	);
+end FOUR_BIT_ADDER;
+
+architecture FOUR_BIT_ADDER_LOGIC of FOUR_BIT_ADDER is
+signal OUTPUT_0,OUTPUT_1, OUTPUT_2,OUTPUT_3,CARRY_OUT_0 ,CARRY_OUT_1 ,CARRY_OUT_2, CARRY_OUT_3 : std_logic;
+component FULL_ADDER
+port 
+	(
+		grygorczuk_carry_in, grygorczuk_input_1, grygorczuk_input_2 : in std_logic;
+		grygorczuk_output, grygorczuk_carry_out : out std_logic
+	);
+end component;
+
+begin
+FULL_ADDER_0: FULL_ADDER port map(grygorczuk_carry_in_2, grygorczuk_carry_x0, grygorczuk_carry_y0, OUTPUT_0,CARRY_OUT_0);
+FULL_ADDER_1: FULL_ADDER port map(CARRY_OUT_0, grygorczuk_carry_x1, grygorczuk_carry_y1, OUTPUT_1,CARRY_OUT_1);
+FULL_ADDER_2: FULL_ADDER port map(CARRY_OUT_1,grygorczuk_carry_x2, grygorczuk_carry_y2,OUTPUT_2, CARRY_OUT_2);
+FULL_ADDER_3: FULL_ADDER port map(CARRY_OUT_2, grygorczuk_carry_x3, grygorczuk_carry_y3, OUTPUT_3,CARRY_OUT_3);
+
+grygorczuk_carry_out_3 <= CARRY_OUT_3;
+grygorczuk_carry_o0 <= OUTPUT_0;
+grygorczuk_carry_o1 <= OUTPUT_1;
+grygorczuk_carry_o2 <= OUTPUT_2;
+grygorczuk_carry_o3 <= OUTPUT_3;
+  
+end FOUR_BIT_ADDER_LOGIC;
+	
