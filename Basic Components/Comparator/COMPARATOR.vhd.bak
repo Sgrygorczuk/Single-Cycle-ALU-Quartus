@@ -1,0 +1,19 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity COMPARATOR is
+	port(
+		grygorczuk_o0, grygorczuk_o1, grygorczuk_o2, grygorczuk_o3, : in std_logic;
+		grygorczuk_z, : out std_logic
+	);
+end TWOS_COMPLEMENT;
+
+architecture TWOS_COMPLEMENT_LOGIC of TWOS_COMPLEMENT is
+signal AND_0, AND_1: std_logic;
+
+begin
+AND_0 <= grygorczuk_o1 and grygorczuk_o3;
+AND_1 <= grygorczuk_o2 and grygorczuk_o3;
+grygorczuk_z <= AND_0 or AND_1;
+
+end TWOS_COMPLEMENT_LOGIC;

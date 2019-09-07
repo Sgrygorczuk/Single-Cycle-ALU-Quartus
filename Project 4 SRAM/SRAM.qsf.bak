@@ -1,0 +1,175 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 12:59:09  October 25, 2018
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		SRAM_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C35F672C6
+set_global_assignment -name TOP_LEVEL_ENTITY SRAM_PINS
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:59:09  OCTOBER 25, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name BDF_FILE SR_LATCH.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE SR_LATCH_WAVEFORM.vwf
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name BDF_FILE CONTROL_SR_LATCH.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE CONTORL_SR_LATCH_WAVEFORM.vwf
+set_global_assignment -name BDF_FILE D_LATCH.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE D_LATCH_WAVEFORM.vwf
+set_global_assignment -name BDF_FILE SRAM.bdf
+set_global_assignment -name BDF_FILE MASTER_SLAVE_D_FLIP_FLOP.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE SRAM_WAVEFORM.vwf
+set_global_assignment -name BDF_FILE SRAM_SIXTEEN_BY_FOUR.bdf
+set_global_assignment -name VHDL_FILE Decoder_Four_to_Sixteen.vhd
+set_global_assignment -name BDF_FILE SRAM_SIXTEEN_BY_FOUR_OPERATIONAL.bdf
+set_global_assignment -name VHDL_FILE Decoder_And_Seven_Segment_Display.vhd
+set_global_assignment -name BDF_FILE SRAM_NORMAL.bdf
+set_global_assignment -name BDF_FILE SRAM_SIXTEEN_BY_THIRTY_TWO.bdf
+set_global_assignment -name BDF_FILE SRAM_PINS.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE MASTER_SLAVE_D_FLIP_FLOP_WAVEFORM.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE SRAM_CELL_WAVEFORM.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE SRAM_SIXTEEN_BY_ONE_WAVEFORM.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE SRAM_SIXTEEN_BY_FOUR_OPERATIONAL_WAVEFORM.vwf
+set_global_assignment -name BDF_FILE FOUR_TO_SIXTEEN_DECODER.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE FOUR_TO_SIXTEEN_DECODER_WAVEFORM.vwf
+set_global_assignment -name BDF_FILE SEVEN_SEGMENT_DISPLAY.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE SEVEN_SEGMENT_DISPLAY_WAVEFORM.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/altera/13.0sp1/Project_4/SEVEN_SEGMENT_DISPLAY_WAVEFORM.vwf"
+set_location_assignment PIN_N25 -to grygorczuk_in[0]
+set_location_assignment PIN_N26 -to grygorczuk_in[1]
+set_location_assignment PIN_P25 -to grygorczuk_in[2]
+set_location_assignment PIN_AF14 -to grygorczuk_in[3]
+set_location_assignment PIN_AE14 -to grygorczuk_address[0]
+set_location_assignment PIN_AD13 -to grygorczuk_address[1]
+set_location_assignment PIN_AC13 -to grygorczuk_address[2]
+set_location_assignment PIN_C13 -to grygorczuk_address[3]
+set_location_assignment PIN_U4 -to grygorczuk_write_enable
+set_location_assignment PIN_V2 -to grygorczuk_chip_select
+set_location_assignment PIN_V1 -to grygorczuk_output_enable
+set_location_assignment PIN_AF10 -to grygorczuk_a
+set_location_assignment PIN_AB12 -to grygorczuk_b
+set_location_assignment PIN_AC12 -to grygorczuk_c
+set_location_assignment PIN_AD11 -to grygorczuk_d
+set_location_assignment PIN_AE11 -to grygorczuk_e
+set_location_assignment PIN_V14 -to grygorczuk_f
+set_location_assignment PIN_V13 -to grygorczuk_g
+set_location_assignment PIN_AE23 -to o1
+set_location_assignment PIN_AF23 -to o2
+set_location_assignment PIN_AB21 -to o3
+set_location_assignment PIN_AC22 -to o4
+set_location_assignment PIN_AD22 -to o5
+set_location_assignment PIN_AD23 -to o6
+set_location_assignment PIN_AD21 -to o7
+set_location_assignment PIN_AC21 -to o8
+set_location_assignment PIN_AA14 -to o9
+set_location_assignment PIN_Y13 -to o10
+set_location_assignment PIN_AA13 -to o11
+set_location_assignment PIN_AC14 -to o12
+set_location_assignment PIN_AD15 -to o13
+set_location_assignment PIN_AE15 -to o14
+set_location_assignment PIN_AF13 -to o15
+set_location_assignment PIN_AE13 -to o17
+set_location_assignment PIN_AE12 -to o18
+set_location_assignment PIN_AD12 -to o19
+set_location_assignment PIN_AA20 -to o20
+set_location_assignment PIN_AE22 -to o21
+set_location_assignment PIN_AF22 -to o22
+set_location_assignment PIN_W19 -to o23
+set_location_assignment PIN_V18 -to o24
+set_location_assignment PIN_U18 -to o25
+set_location_assignment PIN_AA20 -to o26
+set_location_assignment PIN_Y18 -to o27
+set_location_assignment PIN_Y12 -to o28
+set_location_assignment PIN_L3 -to 1
+set_location_assignment PIN_L2 -to 2
+set_location_assignment PIN_L9 -to 3
+set_location_assignment PIN_L6 -to 4
+set_location_assignment PIN_L7 -to 5
+set_location_assignment PIN_P9 -to 6
+set_location_assignment PIN_N9 -to 7
+set_location_assignment PIN_V20 -to 8
+set_location_assignment PIN_V21 -to 9
+set_location_assignment PIN_W21 -to 10
+set_location_assignment PIN_Y22 -to 11
+set_location_assignment PIN_AA24 -to 12
+set_location_assignment PIN_AA23 -to 13
+set_location_assignment PIN_AB24 -to 14
+set_location_assignment PIN_AB23 -to 15
+set_location_assignment PIN_V22 -to 16
+set_location_assignment PIN_AC25 -to 17
+set_location_assignment PIN_AC26 -to 18
+set_location_assignment PIN_AB26 -to 19
+set_location_assignment PIN_AB25 -to 20
+set_location_assignment PIN_Y24 -to 21
+set_location_assignment PIN_Y23 -to 22
+set_location_assignment PIN_AA25 -to 23
+set_location_assignment PIN_AA26 -to 24
+set_location_assignment PIN_Y26 -to 25
+set_location_assignment PIN_Y25 -to 26
+set_location_assignment PIN_U22 -to 27
+set_location_assignment PIN_W24 -to 28
+set_location_assignment PIN_U9 -to 29
+set_location_assignment PIN_U1 -to 30
+set_location_assignment PIN_U2 -to 31
+set_location_assignment PIN_T4 -to 32
+set_location_assignment PIN_R7 -to 33
+set_location_assignment PIN_R6 -to 34
+set_location_assignment PIN_T3 -to 35
+set_location_assignment PIN_T2 -to 36
+set_location_assignment PIN_P6 -to 37
+set_location_assignment PIN_P7 -to 38
+set_location_assignment PIN_T9 -to 39
+set_location_assignment PIN_R5 -to 40
+set_location_assignment PIN_R4 -to 41
+set_location_assignment PIN_R3 -to 42
+set_location_assignment PIN_R2 -to 43
+set_location_assignment PIN_P4 -to 44
+set_location_assignment PIN_P3 -to 45
+set_location_assignment PIN_M2 -to 46
+set_location_assignment PIN_M3 -to 47
+set_location_assignment PIN_M5 -to 48
+set_location_assignment PIN_M4 -to 49
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

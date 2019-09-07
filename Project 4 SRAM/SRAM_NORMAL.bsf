@@ -1,0 +1,113 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 304 176)
+	(text "SRAM_NORMAL" (rect 5 0 99 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 144 25 156)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "grygorczuk_in[3..0]" (rect 0 0 109 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_in[3..0]" (rect 21 27 130 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "grygorczuk_address[3..0]" (rect 0 0 147 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_address[3..0]" (rect 21 43 168 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "grygorczuk_write_enable" (rect 0 0 146 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_write_enable" (rect 21 59 167 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "grygorczuk_output_enable" (rect 0 0 152 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_output_enable" (rect 21 75 173 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "grygorczuk_chip_select" (rect 0 0 136 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_chip_select" (rect 21 91 157 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 288 32)
+		(output)
+		(text "grygorczuk_a" (rect 0 0 79 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_a" (rect 188 27 267 41)(font "Arial" (font_size 8)))
+		(line (pt 288 32)(pt 272 32))
+	)
+	(port
+		(pt 288 48)
+		(output)
+		(text "grygorczuk_b" (rect 0 0 79 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_b" (rect 188 43 267 57)(font "Arial" (font_size 8)))
+		(line (pt 288 48)(pt 272 48))
+	)
+	(port
+		(pt 288 64)
+		(output)
+		(text "grygorczuk_c" (rect 0 0 79 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_c" (rect 188 59 267 73)(font "Arial" (font_size 8)))
+		(line (pt 288 64)(pt 272 64))
+	)
+	(port
+		(pt 288 80)
+		(output)
+		(text "grygorczuk_d" (rect 0 0 79 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_d" (rect 188 75 267 89)(font "Arial" (font_size 8)))
+		(line (pt 288 80)(pt 272 80))
+	)
+	(port
+		(pt 288 96)
+		(output)
+		(text "grygorczuk_e" (rect 0 0 79 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_e" (rect 188 91 267 105)(font "Arial" (font_size 8)))
+		(line (pt 288 96)(pt 272 96))
+	)
+	(port
+		(pt 288 112)
+		(output)
+		(text "grygorczuk_f" (rect 0 0 76 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_f" (rect 191 107 267 121)(font "Arial" (font_size 8)))
+		(line (pt 288 112)(pt 272 112))
+	)
+	(port
+		(pt 288 128)
+		(output)
+		(text "grygorczuk_g" (rect 0 0 79 14)(font "Arial" (font_size 8)))
+		(text "grygorczuk_g" (rect 188 123 267 137)(font "Arial" (font_size 8)))
+		(line (pt 288 128)(pt 272 128))
+	)
+	(drawing
+		(rectangle (rect 16 16 272 144))
+	)
+)
