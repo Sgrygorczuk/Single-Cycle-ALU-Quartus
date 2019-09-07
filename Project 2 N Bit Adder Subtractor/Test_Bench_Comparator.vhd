@@ -1,0 +1,56 @@
+library ieee; 
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_unsigned.all;
+
+entity TEST_BENCH_COMPARATOR is 
+end TEST_BENCH_COMPARATOR;
+
+architecture TEST_BENCH_COMPARATOR_LOGIC of TEST_BENCH_COMPARATOR is
+
+constant n: integer := 4;
+constant m : integer := 2**(n); 
+
+component COMPARATOR is
+   generic(
+    n: integer := 4
+  );
+	port(grygorczuk_sign : in std_logic;
+		grygorczuk_X, grygorczuk_Y: in std_logic_vector(n-1 DOWNTO 0);
+		grygorczuk_OVF, grygorczuk_NF, grygorczuk_ZF, grygorczuk_COF: out std_logic;
+		grygorczuk_OUT: out std_logic_vector(n-1 DOWNTO 0)
+	);
+	end component; 
+
+signal grygorczuk_A, grygorczuk_B : std_logic_vector(n-1 DOWNTO 0):= (0 => '0', others => '0');
+signal grygorczuk_add_one : std_logic_vector(n-1 DOWNTO 0):= (0 => '1', others => '0');
+signal grygorczuk_SIGN,grygorczuk_OVER_F, grygorczuk_NEG_F, grygorczuk_ZERO_F, grygorczuk_CARRY_F: std_logic;
+
+begin 
+  ------Instantiate the Unit Under Test (UUT)
+utt: COMPARATOR port map(
+  grygorczuk_sign => grygorczuk_SIGN,
+  grygorczuk_X => grygorczuk_A,
+  grygorczuk_Y =>grygorczuk_B,
+  grygorczuk_OVF => grygorczuk_OVER_F,
+  grygorczuk_NF => grygorczuk_NEG_F,
+  grygorczuk_ZF => grygorczuk_ZERO_F,
+  grygorczuk_COF => grygorczuk_CARRY_F
+);
+
+--Test Bench
+Test_Bench : process
+begin 
+  grygorczuk_SIGN <= '1';
+  for i in 0 to m loop
+    for j in 0 to m loop
+    wait for 100 ps; 
+    grygorczuk_B <= grygorczuk_B + grygorczuk_add_one;
+    end loop;
+  grygorczuk_A <= grygorczuk_A + grygorczuk_add_one;
+  end loop;
+end process; 
+
+
+
+end TEST_BENCH_COMPARATOR_LOGIC;

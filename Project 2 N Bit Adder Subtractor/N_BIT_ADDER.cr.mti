@@ -1,0 +1,99 @@
+C:/Users/Sebastian/Desktop/N_BIT_ADDER/N_Bit_Adder.vhd {1 {vcom -work work -2002 -explicit {C:\Users\Sebastian\Desktop\N_BIT_ADDER\N_Bit_Adder.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity N_BIT_ADDER
+-- Compiling architecture N_BIT_ADDER_LOGIC of N_BIT_ADDER
+
+} {} {}} C:/Users/Sebastian/Desktop/N_BIT_ADDER/SLT.vhd {1 {vcom -work work -2002 -explicit {C:\Users\Sebastian\Desktop\N_BIT_ADDER\SLT.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity SLT
+-- Compiling architecture SLT_LOGIC of SLT
+
+} {} {}} C:/Users/Sebastian/Desktop/N_BIT_ADDER/Half_Adder_Test_Bench.vhd {1 {vcom -work work -2002 -explicit C:/Users/Sebastian/Desktop/N_BIT_ADDER/Half_Adder_Test_Bench.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Half_Adder_Test
+-- Compiling architecture Half_Adder_Test_Logic of Half_Adder_Test
+
+} {} {}} C:/Users/Sebastian/Desktop/N_BIT_ADDER/Comparator.vhd {1 {vcom -work work -2002 -explicit C:/Users/Sebastian/Desktop/N_BIT_ADDER/Comparator.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity COMPARATOR
+-- Compiling architecture COMPARATOR_LOGIC of COMPARATOR
+
+} {} {}} C:/Users/Sebastian/Desktop/N_BIT_ADDER/Test_Bench_N_Bit_Adder.vhd {1 {vcom -work work -2002 -explicit {C:\Users\Sebastian\Desktop\N_BIT_ADDER\Test_Bench_N_Bit_Adder.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity TEST_BENCH_N_BIT_ADDER
+-- Compiling architecture TEST_BENCH_N_BIT_ADDER_LOGIC of TEST_BENCH_N_BIT_ADDER
+
+} {} {}} C:/Users/Sebastian/Desktop/N_BIT_ADDER/Full_Adder_Test.vhd {1 {vcom -work work -2002 -explicit C:/Users/Sebastian/Desktop/N_BIT_ADDER/Full_Adder_Test.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Full_Adder_Test
+-- Compiling architecture Full_Adder_Test_Logic of Full_Adder_Test
+
+} {} {}} C:/Users/Sebastian/Desktop/N_BIT_ADDER/Test_Bench_SLT.vhd {1 {vcom -work work -2002 -explicit {C:\Users\Sebastian\Desktop\N_BIT_ADDER\Test_Bench_SLT.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity TEST_BENCH_SLT
+-- Compiling architecture TEST_BENCH_SLT_LOGIC of TEST_BENCH_SLT
+
+} {} {}} C:/Users/Sebastian/Desktop/N_BIT_ADDER/Test_Bench_Comparator.vhd {1 {vcom -work work -2002 -explicit {C:\Users\Sebastian\Desktop\N_BIT_ADDER\Test_Bench_Comparator.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity TEST_BENCH_COMPARATOR
+-- Compiling architecture TEST_BENCH_COMPARATOR_LOGIC of TEST_BENCH_COMPARATOR
+
+} {} {}} C:/Users/Sebastian/Desktop/N_BIT_ADDER/Full_Adder.vhd {1 {vcom -work work -2002 -explicit C:/Users/Sebastian/Desktop/N_BIT_ADDER/Full_Adder.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FULL_ADDER
+-- Compiling architecture FULL_ADDER_LOGIC of FULL_ADDER
+
+} {} {}} C:/Users/Sebastian/Desktop/N_BIT_ADDER/Half_Adder.vhd {1 {vcom -work work -2002 -explicit C:/Users/Sebastian/Desktop/N_BIT_ADDER/Half_Adder.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity HALF_ADDER
+-- Compiling architecture HALF_ADDER_LOGIC of HALF_ADDER
+
+} {} {}}

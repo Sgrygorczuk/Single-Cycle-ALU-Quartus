@@ -1,0 +1,57 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# File: C:\altera\13.0sp1\BASIC_PROJECTS\PROJECT_1\PROJECT_1.csv
+# Generated on: Wed Sep 26 16:33:48 2018
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Differential Pair
+grygorczuk_binary_display_LSB,Output,PIN_V18,7,B7_N0,PIN_V18,,,,
+grygorczuk_binary_display_LSB_S,Output,,,,PIN_AD21,,,,
+grygorczuk_binary_display_MSB,Output,PIN_AE22,7,B7_N0,PIN_AE22,,,,
+grygorczuk_binary_display_MSB_1,Output,PIN_AF22,7,B7_N0,PIN_AF22,,,,
+grygorczuk_binary_display_MSB_1_S,Output,,,,PIN_AD22,,,,
+grygorczuk_binary_display_MSB_2,Output,PIN_W19,7,B7_N0,PIN_W19,,,,
+grygorczuk_binary_display_MSB_2_S,Output,,,,PIN_AD23,,,,
+grygorczuk_binary_display_MSB_S,Output,,,,PIN_AE25,,,,
+grygorczuk_carry_in,Input,PIN_A17,4,B4_N1,PIN_N25,,,,
+grygorczuk_carry_out_flag,Output,PIN_AC22,7,B7_N0,PIN_AC22,,,,
+grygorczuk_input_x0,Input,PIN_AF14,7,B7_N1,PIN_AF14,,,,
+grygorczuk_input_x1,Input,PIN_AE14,7,B7_N1,PIN_AE14,,,,
+grygorczuk_input_x2,Input,PIN_P25,6,B6_N0,PIN_P25,,,,
+grygorczuk_input_x3,Input,PIN_N26,5,B5_N1,PIN_N26,,,,
+grygorczuk_input_y0,Input,PIN_B13,4,B4_N1,PIN_B13,,,,
+grygorczuk_input_y1,Input,PIN_C13,3,B3_N0,PIN_C13,,,,
+grygorczuk_input_y2,Input,PIN_AC13,8,B8_N0,PIN_AC13,,,,
+grygorczuk_input_y3,Input,PIN_AD13,8,B8_N0,PIN_AD13,,,,
+grygorczuk_negative_flag,Output,PIN_AF23,7,B7_N0,PIN_AF23,,,,
+grygorczuk_output_a0,Output,PIN_V20,6,B6_N1,PIN_V20,,,,
+grygorczuk_output_a1,Output,PIN_AF10,8,B8_N0,PIN_AF10,,,,
+grygorczuk_output_b0,Output,PIN_V21,6,B6_N1,PIN_V21,,,,
+grygorczuk_output_b1,Output,PIN_AB12,8,B8_N0,PIN_AB12,,,,
+grygorczuk_output_c0,Output,PIN_W21,6,B6_N1,PIN_W21,,,,
+grygorczuk_output_c1,Output,PIN_AC12,8,B8_N0,PIN_AC12,,,,
+grygorczuk_output_d0,Output,PIN_Y22,6,B6_N1,PIN_Y22,,,,
+grygorczuk_output_d1,Output,PIN_AD11,8,B8_N0,PIN_AD11,,,,
+grygorczuk_output_e0,Output,PIN_AA24,6,B6_N1,PIN_AA24,,,,
+grygorczuk_output_e1,Output,PIN_AE11,8,B8_N0,PIN_AE11,,,,
+grygorczuk_output_f0,Output,PIN_AA23,6,B6_N1,PIN_AA23,,,,
+grygorczuk_output_f1,Output,PIN_V14,8,B8_N0,PIN_V14,,,,
+grygorczuk_output_g0,Output,PIN_AB24,6,B6_N1,PIN_AB24,,,,
+grygorczuk_output_g1,Output,PIN_V13,8,B8_N0,PIN_V13,,,,
+grygorczuk_overflow_flag,Output,PIN_AE23,7,B7_N0,PIN_AE23,,,,
+grygorczuk_signe,Input,PIN_A13,4,B4_N1,PIN_A13,,,,
+grygorczuk_zero_flag,Output,PIN_AB21,7,B7_N0,PIN_AB21,,,,

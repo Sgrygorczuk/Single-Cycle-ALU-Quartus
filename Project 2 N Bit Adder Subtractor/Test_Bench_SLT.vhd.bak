@@ -1,0 +1,55 @@
+library ieee; 
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_unsigned.all;
+
+entity TEST_BENCH_SLT is 
+end TEST_BENCH_SLT;
+
+architecture TEST_BENCH_SLT_LOGIC of TEST_BENCH_SLT is
+
+constant n: integer := 4;
+constant m : integer := 2**(n); 
+
+component SLT is 
+  generic(
+    n: integer := 4
+  );
+  port(
+  grygorczuk_x_1, grygorczuk_y_1 : in std_logic_vector(n-1 DOWNTO 0);
+  grygorczuk_output : out std_logic
+  );
+end component; 
+
+signal grygorczuk_A, grygorczuk_B, grygorczuk_zero: std_logic_vector(n-1 DOWNTO 0) := (0 => '0', others => '0');
+signal grygorczuk_add_one: std_logic_vector(n-1 DOWNTO 0):= (0 => '1', others => '0');
+signal grygorczuk_O: std_logic;
+
+begin 
+  ------Instantiate the Unit Under Test (UUT)
+utt: SLT port map(
+  grygorczuk_x_1 => grygorczuk_A,
+  grygorczuk_y_1 => grygorczuk_B,
+  grygorczuk_output => grygorczuk_O
+);
+
+--Test Bench
+Test_Bench : process
+begin 
+  for i in 0 to m loop
+    wait for 100 ps; 
+    assert ('0' = grygorczuk_O) report "Output is " & " while the expected 0" severity ERROR;   
+    grygorczuk_B <= grygorczuk_B + grygorczuk_add_one;
+  end loop;
+  
+  for i in 0 to m loop
+    wait for 100 ps; 
+    assert ('0' = grygorczuk_O) report "Output is " & " while the expected 0" severity ERROR;   
+    grygorczuk_A <= grygorczuk_A + grygorczuk_add_one;
+  end loop;
+report "End of Test";
+end process; 
+
+
+
+end TEST_BENCH_SLT_LOGIC;
