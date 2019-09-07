@@ -1,0 +1,170 @@
+C:/Users/Me/Desktop/Bit_Wise/BW_SRL_TESTBENCH.vhd {1 {vcom -work work -2002 -explicit C:/Users/Me/Desktop/Bit_Wise/BW_SRL_TESTBENCH.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity BW_SRL_TESTBENCH
+-- Compiling architecture BW_SRL_TESTBENCH_LOGIC of BW_SRL_TESTBENCH
+
+} {} {}} C:/Users/Me/Desktop/Bit_Wise/BW_XOR_TESTBENCH.vhd {1 {vcom -work work -2002 -explicit C:/Users/Me/Desktop/Bit_Wise/BW_XOR_TESTBENCH.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity BW_XOR_TESTBENCH
+-- Compiling architecture BW_XOR_TESTBENCH_LOGIC of BW_XOR_TESTBENCH
+
+} {} {}} C:/Users/Me/Desktop/Bit_Wise/BW_XOR.vhd {1 {vcom -work work -2002 -explicit {C:\Users\Me\Desktop\Bit_Wise\BW_XOR.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BW_XOR
+-- Compiling architecture BW_XOR_LOGIC of BW_XOR
+
+} {} {}} C:/Users/Me/Desktop/Bit_Wise/BW_SRL.vhd {1 {vcom -work work -2002 -explicit {C:\Users\Me\Desktop\Bit_Wise\BW_SRL.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BW_SRL
+-- Compiling architecture BW_SRL_LOGIC of BW_SRL
+
+} {} {}} C:/Users/Me/Desktop/Bit_Wise/BW_AND_TESTBENCH.vhd {1 {vcom -work work -2002 -explicit {C:\Users\Me\Desktop\Bit_Wise\BW_AND_TESTBENCH.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity BW_AND_TESTBENCH
+-- Compiling architecture BW_AND_TESTBENCH_LOGIC of BW_AND_TESTBENCH
+
+} {} {}} C:/Users/Me/Desktop/Bit_Wise/BW_AND.vhd {1 {vcom -work work -2002 -explicit {C:\Users\Me\Desktop\Bit_Wise\BW_AND.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BW_AND
+-- Compiling architecture BW_AND_LOGIC of BW_AND
+
+} {} {}} C:/Users/Me/Desktop/Bit_Wise/BW_ROL_TESTBENCH.vhd {1 {vcom -work work -2002 -explicit C:/Users/Me/Desktop/Bit_Wise/BW_ROL_TESTBENCH.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity BW_ROL_TESTBENCH
+-- Compiling architecture BW_ROL_TESTBENCH_LOGIC of BW_ROL_TESTBENCH
+
+} {} {}} C:/Users/Me/Desktop/Bit_Wise/BW_ROL.vhd {1 {vcom -work work -2002 -explicit {C:\Users\Me\Desktop\Bit_Wise\BW_ROL.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BW_ROL
+-- Compiling architecture BW_ROL_LOGIC of BW_ROL
+
+} {} {}} C:/Users/Me/Desktop/Bit_Wise/BW_OR_TESTBENCH.vhd {1 {vcom -work work -2002 -explicit C:/Users/Me/Desktop/Bit_Wise/BW_OR_TESTBENCH.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity BW_OR_TESTBENCH
+-- Compiling architecture BW_OR_TESTBENCH_LOGIC of BW_OR_TESTBENCH
+
+} {} {}} C:/Users/Me/Desktop/Bit_Wise/BW_NOT_TESTBENCH.vhd {1 {vcom -work work -2002 -explicit C:/Users/Me/Desktop/Bit_Wise/BW_NOT_TESTBENCH.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity BW_NOT_TESTBENCH
+-- Compiling architecture BW_NOT_TESTBENCH_LOGIC of BW_NOT_TESTBENCH
+
+} {} {}} C:/Users/Me/Desktop/Bit_Wise/BW_OR.vhd {1 {vcom -work work -2002 -explicit {C:\Users\Me\Desktop\Bit_Wise\BW_OR.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BW_OR
+-- Compiling architecture BW_OR_LOGIC of BW_OR
+
+} {} {}} C:/Users/Me/Desktop/Bit_Wise/BW_NOT.vhd {1 {vcom -work work -2002 -explicit {C:\Users\Me\Desktop\Bit_Wise\BW_NOT.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BW_NOT
+-- Compiling architecture BW_NOT_LOGIC of BW_NOT
+
+} {} {}} C:/Users/Me/Desktop/Bit_Wise/BW_SLL_TESTBENCH.vhd {1 {vcom -work work -2002 -explicit C:/Users/Me/Desktop/Bit_Wise/BW_SLL_TESTBENCH.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity BW_SLL_TESTBENCH
+-- Compiling architecture BW_SLL_TESTBENCH_LOGIC of BW_SLL_TESTBENCH
+
+} {} {}} C:/Users/Me/Desktop/Bit_Wise/BW_ROR_TESTBENCH.vhd {1 {vcom -work work -2002 -explicit C:/Users/Me/Desktop/Bit_Wise/BW_ROR_TESTBENCH.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity BW_ROR_TESTBENCH
+-- Compiling architecture BW_ROR_TESTBENCH_LOGIC of BW_ROR_TESTBENCH
+
+} {} {}} C:/Users/Me/Desktop/Bit_Wise/BW_CIRCUIT.vhd {0 {vcom -work work -2002 -explicit {C:\Users\Me\Desktop\Bit_Wise\BW_CIRCUIT.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BW_CIRCUIT
+-- Compiling architecture BW_CIRCUIT_LOGIC of BW_CIRCUIT
+** Error: C:\Users\Me\Desktop\Bit_Wise\BW_CIRCUIT.vhd(122): Illegal sequential statement.
+** Error: C:\Users\Me\Desktop\Bit_Wise\BW_CIRCUIT.vhd(124): Illegal sequential statement.
+** Error: C:\Users\Me\Desktop\Bit_Wise\BW_CIRCUIT.vhd(126): Illegal sequential statement.
+** Error: C:\Users\Me\Desktop\Bit_Wise\BW_CIRCUIT.vhd(128): Illegal sequential statement.
+** Error: C:\Users\Me\Desktop\Bit_Wise\BW_CIRCUIT.vhd(130): Illegal sequential statement.
+** Error: C:\Users\Me\Desktop\Bit_Wise\BW_CIRCUIT.vhd(132): Illegal sequential statement.
+** Error: C:\Users\Me\Desktop\Bit_Wise\BW_CIRCUIT.vhd(134): Illegal sequential statement.
+** Error: C:\Users\Me\Desktop\Bit_Wise\BW_CIRCUIT.vhd(136): Illegal sequential statement.
+** Error: C:\Users\Me\Desktop\Bit_Wise\BW_CIRCUIT.vhd(148): VHDL Compiler exiting
+
+} {8.0 17.0} {}} C:/Users/Me/Desktop/Bit_Wise/BW_SLL.vhd {1 {vcom -work work -2002 -explicit {C:\Users\Me\Desktop\Bit_Wise\BW_SLL.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BW_SLL
+-- Compiling architecture BW_SLL_LOGIC of BW_SLL
+
+} {} {}} C:/Users/Me/Desktop/Bit_Wise/BW_ROR.vhd {1 {vcom -work work -2002 -explicit {C:\Users\Me\Desktop\Bit_Wise\BW_ROR.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BW_ROR
+-- Compiling architecture BW_ROR_LOGIC of BW_ROR
+
+} {} {}}

@@ -1,0 +1,25 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity BW_ROL is
+  generic(
+    n: integer := 6
+  );
+	port(
+		grygorczuk_rol: in std_logic_vector(n-1 DOWNTO 0);
+		grygorczuk_output_rol: out std_logic_vector(n-1 DOWNTO 0)
+	);
+end BW_ROL;
+
+architecture BW_ROL_LOGIC of BW_ROL is
+
+begin
+
+ROL_LOOP: for i in 0 to n-2 generate
+  grygorczuk_output_rol(i+1) <= grygorczuk_rol(i);
+end generate;
+grygorczuk_output_rol(0) <= grygorczuk_rol(n-1);
+  
+end BW_ROL_LOGIC;
+
+
